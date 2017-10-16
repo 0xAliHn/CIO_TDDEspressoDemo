@@ -1,24 +1,26 @@
-# Android Dagger2Demo with Retrofit2
+# Android Espresso Test with TDD
 
-1. What Dagger 2 is.
-2. How to provide an injectable dependency that is scoped by the @Singleton annotation
-3. What Dagger 2 Components are
-4. How to build a Dagger 2 Component
-5. About Dagger 2 Code Generating files like – Dagger{FooBar}.java during build time
-6. How to build a Dagger module
-7. How to wire Dagger 2 up to an application.
-8. How to perform an injection into an Activity
-9. How to perform constructor injection
-10. How to perform method injection
-11. How to provide named injections
-12. How to require & perform named injections
-13. How to create multiple Dagger modules
-14. How and why it is important to rely on abstractions (interfaces)
-15. How to provide a Retrofit RestAdpater
-16. How to build a custom Retrofit Endpoint and inject it into a Restadapter
-17. How a multi-module Dagger object graph is composed
-18. How to use multiple Dagger modules in a component
-19. How constructor injection works across multiple modules
-20. How to use Dagger to reduce the amount of code you write by using the same injection in multiple places
-21. How to create a new injection target when you need dependency injection when there is none
-22. How a multi-module Dagger object graph is composed
+1. What View Matchers are and how to use them
+2. What View Assertions are and how to use them
+3. What View Actions are and how to use them
+4. How to write a test that validates different screens are loaded.
+5. How to debug tests when view are not found with view matchers
+6. How to use the UIAutomatorViewer to speed up test development
+7. Best practice for finding views (use the ID not string literals!)
+8. How to click on buttons with Espresso
+9. How to enter text into EditText widgets with Espresso
+10. How databases are cleaned before each test run (using Realm).
+11. How simulate multiple interactions to create large lists of data as a user would.
+12. About what the RecylerViewActions are and how to include them in your build.gradle file and use them
+13. How to use the basic RecyclerViewActions to scroll to a particular item that is off the screen
+14. How RealmRecyclerViewActions follow the same API as the regular RecyclerViewActions
+15. How to assert that items are present and that scrolling can occur and that new items are now present
+16. How to create a custom ViewMatcher
+17. How to write a description that will show up in the test result window when test fails (to help with debugging tests)
+18. How to use the custom ViewMatcher
+19. How RealmRecyclerViewActions follow the same API as the regular RecyclerViewActions
+20. How to assert that items are present and that scrolling can occur and that new items are now present
+21. How to create a custom ViewMatcher for a TextView
+22. How to compare bitmaps
+23. How to compare ImageViews with a custom ImageView matcher
+24. How to use these matchers to validate tests and UI components
